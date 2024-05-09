@@ -1,0 +1,39 @@
+/* css box model, css animations, css flexbox */
+/* responsive food ordering webpage */
+/* box model
+    border =>thickness, style, color
+    padding
+    margin
+*/
+    .card{   
+        transition: .3s;
+        border: 1px soild rgb(177, 208, 248);
+        width: 260px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: large;
+
+    }
+    .card:hover{
+        transform: rotate(3deg);
+        width: 290px;
+        border-radius: 20px;
+        border: 1px soild rgb(169, 226, 248);
+        box-shadow: 6px 8px 16px 8px #f3c1c1;
+        
+
+    }
+    .card img{
+        width: 100%;
+        border-radius: 14px;
+
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
